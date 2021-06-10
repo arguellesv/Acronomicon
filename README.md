@@ -1,8 +1,7 @@
 # Acronomicon
 A Simple Acronym Finder
 
-This project is set up to use the STANDS4 API to look for acronyms, but it can also use the Merriam-Webster API and make it look for any dictionary entry
-by changing 
+This project is set up to use the [STANDS4 API](https://www.abbreviations.com/api.php) to look for acronyms, but it can also use the [Merriam-Webster API](https://dictionaryapi.com/products/index) and make it look for any dictionary entry by changing:
 
 ``` Swift
 let meaningsFetcher = SFMeaningsFetcher()
