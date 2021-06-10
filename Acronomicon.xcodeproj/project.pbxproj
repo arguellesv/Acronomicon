@@ -30,6 +30,7 @@
 		C170E81E2672789B0040ADEC /* MeaningResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C170E81D2672789B0040ADEC /* MeaningResultTests.swift */; };
 		C170E822267283770040ADEC /* ResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C170E821267283770040ADEC /* ResultRow.swift */; };
 		C170E824267283C60040ADEC /* SecondaryResultsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C170E823267283C60040ADEC /* SecondaryResultsRow.swift */; };
+		C170E826267288260040ADEC /* Secrets-Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = C170E825267288260040ADEC /* Secrets-Example.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		C170E81D2672789B0040ADEC /* MeaningResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningResultTests.swift; sourceTree = "<group>"; };
 		C170E821267283770040ADEC /* ResultRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultRow.swift; sourceTree = "<group>"; };
 		C170E823267283C60040ADEC /* SecondaryResultsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryResultsRow.swift; sourceTree = "<group>"; };
+		C170E825267288260040ADEC /* Secrets-Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Secrets-Example.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				C170E7FF2670F1400040ADEC /* MWMeaningsFetcher.swift */,
 				C170E8132672433C0040ADEC /* SFMeaningsFetcher.swift */,
 				C170E8012670F3530040ADEC /* Secrets.swift */,
+				C170E825267288260040ADEC /* Secrets-Example.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C170E826267288260040ADEC /* Secrets-Example.swift in Sources */,
 				C170E80F267183870040ADEC /* json.swift in Sources */,
 				C170E822267283770040ADEC /* ResultRow.swift in Sources */,
 				C170E8042670FA930040ADEC /* MWMeaningResult.swift in Sources */,
