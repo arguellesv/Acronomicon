@@ -16,6 +16,8 @@ in the project's `SceneDelegate.swift` file.
 
 
 ## API Secrets
-This app won't work without a `Secrets.swift` file with API information.
+This app won't compile without a `Secrets` struct with API information. There are a few options to make it work:
 
-You can use the `Secrets-Example.swift` file, add your Merriam-Webster or STANDS4 API secrets and rename the struct to `Secrets`.
+- If I provided you with a `Secrets.swift` file, just drop it in the project and it should work.
+- There is an example [`Secrets-Example.swift`](Acronomicon/Services/Secrets-Example.swift)  provided in the Services group. You can add your Merriam-Webster or STANDS4 API secrets and rename the struct to `Secrets`.
+- Or, if you don't have the keys and don't want to get them, use one of `MockSFMeaningsFetcher` or `MockMWMeaningsFetcher` in place of the real ones as described above, and rename the `SecretsExample` struct to just `Secrets`. Then you'll be able to see the app work with example data.
